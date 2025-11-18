@@ -3,46 +3,7 @@
 > vite
 
 
-  VITE v5.4.20  ready in 282 ms
+  VITE v5.4.20  ready in 276 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.16.235:3000/
-7:41:31 AM [vite] Pre-transform error: Failed to resolve import "@tsparticles/react" from "src/components/Particles.jsx". Does the file exist?
-7:41:31 AM [vite] Internal server error: Failed to resolve import "@tsparticles/react" from "src/components/Particles.jsx". Does the file exist?
-  Plugin: vite:import-analysis
-  File: /home/workspace/src/components/Particles.jsx:2:22
-  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
-  2  |  import { useMemo, useCallback } from "react";
-  3  |  import Particles from "@tsparticles/react";
-     |                         ^
-  4  |  import { loadFirePreset } from "tsparticles-preset-fire";
-  5  |  export default function PlasmaBackground() {
-      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
-      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
-      at normalizeUrl (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64306:23)
-      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-      at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
-      at async Promise.all (index 2)
-      at async TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64365:7)
-      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
-      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
-      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
-7:41:36 AM [vite] Internal server error: Failed to resolve import "@tsparticles/react" from "src/components/Particles.jsx". Does the file exist?
-  Plugin: vite:import-analysis
-  File: /home/workspace/src/components/Particles.jsx:2:22
-  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
-  2  |  import { useMemo, useCallback } from "react";
-  3  |  import Particles from "@tsparticles/react";
-     |                         ^
-  4  |  import { loadFirePreset } from "tsparticles-preset-fire";
-  5  |  export default function PlasmaBackground() {
-      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
-      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
-      at normalizeUrl (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64306:23)
-      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-      at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
-      at async Promise.all (index 2)
-      at async TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64365:7)
-      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
-      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
-      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
